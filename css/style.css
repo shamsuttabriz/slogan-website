@@ -1,0 +1,500 @@
+/* Common Section Start */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+figure, p{
+    margin: 0;
+}
+a{
+    text-decoration: none;   
+}
+li {
+    list-style: none;
+}
+.text-center{
+    text-align: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.row{
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-1 {
+    float: left;
+    width: 8.3333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-2 {
+    float: left;
+    width: 16.6666%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-3{
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+.col-4{
+    float: left;
+    width: 33.3333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-5 {
+    float: left;
+    width: 41.6665%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-6{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-7{
+    float: left;
+    width: 58.3331%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-8{
+    float: left;
+    width: 66.6664%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-9{
+    float: left;
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+.col-10{
+    float: left;
+    width: 83.333%;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+.col-11{
+    float: left;
+    width: 91.6663%;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+/* Common Section End */
+
+
+
+/* Header Section Start */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #f9f9f9;
+    opacity: 0.8;
+}
+header .container figure {
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    position: relative;
+}
+header .container figure figcaption {
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+header .container figure figcaption a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+header .container nav {
+    float: right;
+    margin-top: 45px;
+}
+header .container nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+header .container nav ul li:last-child {
+    margin-right: 0;
+}
+header .container nav ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000;
+}
+header .container nav ul .active a,
+header .container nav ul li:hover a{
+    transition: 0.3s;
+    color: red;
+}
+/* Header Section End */
+
+
+
+/* Banner Section Start */
+.photograph {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 240px;
+    padding-bottom: 280px;
+}
+.photograph .container .photograph-text {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.photograph .container .photograph-text h2 {
+    font-size: 40px;
+}
+.photograph .container .photograph-text p {
+    font-size: 36px;
+    font-weight: 200;
+}
+/* Banner Section End */
+
+
+/* Services Section Start  */
+.service {
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-color: #f9f9f9;
+}
+.service .container h2,h3,h4 {
+    color: #444444;
+}
+.service .container p {
+    color: #666;
+}
+.service .container .service-text {
+    text-align: center;
+}
+.service .container .service-text h2 {
+    font-size: 30px;
+    font-weight: 300px;
+    margin-bottom: 25px;
+}
+.service .container .service-text p {
+    font-size: 14;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+.service .container .service-text h3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.service .container .row .col-4 div{
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #fff;
+}
+.service .container .row .col-4 div h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.service .container .row .col-4 div p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+/* Services Section End  */
+
+
+/* Instagram Section Start */
+.instagram {
+    background-color: #2c2c2c;
+    padding: 80px 0;
+}
+.instagram .container h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.instagram .container .row .col-4 div {
+    position: relative;
+    width: 100%;
+  }
+  
+  .instagram .container .row .col-4 div .img-fluid {
+    display: block;
+  }
+  
+  .instagram .container .row .col-4 div .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease-in-out;
+    background-color: #2b2b2b;
+  }
+  
+  .instagram .container .row .col-4 div:hover .overlay {
+    opacity: 0.6;
+  }
+  
+  .instagram .container .row .col-4 div .overlay .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .instagram .container .button {
+      margin: auto;
+      width: 185px;
+      margin-top: 30px;
+  }
+  .instagram .container .button button {
+      background-color: transparent;
+      border: 2px solid #a6a6a6;
+      border-radius: 3px;
+      padding: 15px 20px;
+      color: #a6a6a6;
+      font-size: 14px;
+      cursor: pointer;
+  }
+/* Instagram Section End */
+
+
+
+/* Journal Section Start */
+.journal {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+.journal .container h4 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #444;
+}
+.journal .container .row .col-4 div {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+}
+.journal .container .row .col-4 div h5 {
+    font-size: 17px;
+    color: #444;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+.journal .container .row .col-4 div .date {
+    font-size: 13px;
+    font-weight: 300px;
+    color: #999;
+    margin-bottom: 12px;
+}
+.journal .container .row .col-4 div .journal-text {
+    border: none;
+    padding: 25px;
+}
+.journal .container .row .col-4 div .journal-text p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.journal .container .row .col-4 div .journal-text small {
+    border-bottom: 1px solid #28b8d8;
+    padding-bottom: 3px;
+}
+.journal .container .row .col-4 div .journal-text small a {
+    color: #999;
+    font-size: 12px;
+}
+/* Journal Section End */
+
+
+
+/* About Section Start */
+.about {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #f9f9f9;
+}
+.about h3, h4 {
+    color: #444;
+}
+.about p {
+    color: #666;
+    font-size: 13px;
+}
+.about .container .row .col-6 h3{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about .container .row .col-6 .row .col-4 img {
+    margin-top: 8px;
+}
+
+.about .container .row .col-6 .row .col-8 p {
+    margin-bottom: 55px;
+    line-height: 22px;
+}
+
+.about .container .row .col-6 .row .col-10 h4{
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.about .container .row .col-6 .row .col-10 p {
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+/* About Section End */
+
+
+
+/* Footer Section Start */
+
+/* Top Footer Section Start */
+footer .top-footer {
+    background-color: #373737;
+    padding: 80px 0;
+    color: #fff;
+}
+footer .top-footer .container .row .col-3 div h3 {
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+footer .top-footer .container .row .col-3 div ul li {
+    font-size: 13px;
+    color: #cacaca;
+    margin-bottom: 8px;
+}
+footer .top-footer .container .row .col-3 div ul li .fas {
+    padding-right: 20px;
+    font-size: 14px;
+    
+}
+footer .top-footer .container .row .col-3 div ul li p {
+    padding-left: 35px;
+}
+footer .top-footer .container .row .col-3 div p {
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+    color: #cacaca;
+}
+footer .top-footer .container .row .col-3 div p time {
+    display: block;
+    font-size: 12px;
+    color: #929292;
+}
+/* Top Footer Section End */
+
+/* Bottom Footer Section Start */
+footer .bottom-footer {
+    padding: 30px 0 30px 0;
+    background-color: #333333;
+}
+footer .bottom-footer .container .col-6 p {
+    font-size: 13px;
+    color: #cacaca;
+    margin-top: 10px;
+}
+footer .bottom-footer .container .col-2 p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+footer .bottom-footer .container .col-2 p b {
+    color: rgb(228, 201, 0);
+}
+footer .bottom-footer .container .col-2 p span {
+    color: rgb(147, 177, 231);
+}
+footer .bottom-footer .container .col-4 div {
+    float: right;
+}
+footer .bottom-footer .container .col-4 div p {
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+  
+}
+footer .bottom-footer .container .col-4 div p a {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    transition: 0.3s;
+}
+footer .bottom-footer .container .col-4 div p:hover {
+    border: 2px solid #000;
+}
+footer .bottom-footer .container .col-4 div p:hover a{
+    color: rgb(0, 0, 0);
+}
+footer .bottom-footer .container .col-4 div p:last-child a{
+    left: 8px;
+}
+footer .bottom-footer .container .col-4 div p:last-child {
+    margin-right: 0;
+}
+/* Bottom Footer Section End */
+
+/* Footer Section End */
